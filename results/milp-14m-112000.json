@@ -1,0 +1,83 @@
+{
+  "lower_bound": 265409542,
+  "feasible_cost": 281557241,
+  "optimal": false,
+  "parents": [
+    [
+      4
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      12
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      4,
+      12
+    ],
+    [
+      8,
+      10
+    ],
+    [
+      8,
+      12
+    ],
+    [
+      10,
+      12
+    ],
+    [],
+    [
+      12,
+      14
+    ],
+    [
+      12,
+      16
+    ],
+    [
+      14,
+      16
+    ],
+    [
+      12
+    ]
+  ],
+  "solver_status": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+  "solver_dual_excess": null,
+  "row_minima_bytes": 265409542,
+  "elapsed_seconds": 20.03769447099876,
+  "model": "14m",
+  "start": 112000,
+  "cap": 5,
+  "solver_time_limit_seconds": 20,
+  "scipy_version": "1.18.1",
+  "payload_cost_excludes_directory_bytes": 166,
+  "exact_single_parent_bytes": 285234870,
+  "heuristic_bytes": 281557241,
+  "max_cold_records": 5,
+  "mean_cold_bytes": 70272112.11764705
+}

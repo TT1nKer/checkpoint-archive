@@ -1,0 +1,856 @@
+{
+  "archive_kind": "published model weights only; optimizer, training runtime and RNG states absent",
+  "source_repository": "EleutherAI on Hugging Face",
+  "interval_steps": 1000,
+  "windows": [
+    [
+      32000,
+      48000
+    ],
+    [
+      112000,
+      128000
+    ]
+  ],
+  "models": {
+    "14m": {
+      "mode": "entire safetensors",
+      "license": {
+        "model": "14m",
+        "pinned_model_card": "https://huggingface.co/EleutherAI/pythia-14m/resolve/cf967c0a9a04383db6f7b1108d86b2962634b4ac/README.md",
+        "main_revision": "cf967c0a9a04383db6f7b1108d86b2962634b4ac",
+        "license": "apache-2.0",
+        "yaml": [
+          "license: apache-2.0"
+        ],
+        "card_sha256": "d1f2cf1d5181daedeaa70208ddd5cc5251867bde9acf6db7bb45a2265e25e163"
+      },
+      "tensor_count": 76,
+      "dtype_counts": {
+        "F16": 76
+      },
+      "elements": 14067712,
+      "sample_names": null,
+      "checkpoints": [
+        {
+          "step": 32000,
+          "commit": "33df84a2cb76e6f4e4ff9d51e2fccd636cd7fcad",
+          "source_sha256": "1623e76922e57ca6a069dd63421d6e5d551f0b3560efab6dfaacdb1e98a8f567",
+          "source_size": 28143920,
+          "local_sha256": "1623e76922e57ca6a069dd63421d6e5d551f0b3560efab6dfaacdb1e98a8f567",
+          "local_bytes": 28143920,
+          "response_etag": "9eec445e4f1b62c30b3f93990ad4e5a44bc41c3e5af7981dbd3db4f9e2764e7f"
+        },
+        {
+          "step": 33000,
+          "commit": "cfc0faa136d13c09fca9fa0744de393a24561611",
+          "source_sha256": "637c4b6ca4061db43d41ecb382a70c22ea5dd3f8eaae7308b8e0951c9fe8b827",
+          "source_size": 28143920,
+          "local_sha256": "637c4b6ca4061db43d41ecb382a70c22ea5dd3f8eaae7308b8e0951c9fe8b827",
+          "local_bytes": 28143920,
+          "response_etag": "7d17ed9b7dbcf0a3ad7e7eb49b585d310ca68226677180efc3ab18844b92b941"
+        },
+        {
+          "step": 34000,
+          "commit": "4d2bdd0856e3d1a8edf5fc24d7945a4047728ae8",
+          "source_sha256": "4a57fe9f727cd24f92745ce92cd53f27abfab10fad005115be83921037fea6c9",
+          "source_size": 28143920,
+          "local_sha256": "4a57fe9f727cd24f92745ce92cd53f27abfab10fad005115be83921037fea6c9",
+          "local_bytes": 28143920,
+          "response_etag": "667f58b6d639b470321b1b7c8a79d82619bb59d5dcd2aa29231a06334f8952ad"
+        },
+        {
+          "step": 35000,
+          "commit": "0dd992b701df2b1709403f6a7cdd7f6931fa76db",
+          "source_sha256": "f02f16215e31777b31af31844ffa0404aba42271f34322b2ee407e3fa2a985af",
+          "source_size": 28143920,
+          "local_sha256": "f02f16215e31777b31af31844ffa0404aba42271f34322b2ee407e3fa2a985af",
+          "local_bytes": 28143920,
+          "response_etag": "14c3028d55942737de5e10f20ace16c331c644c2fa6fda454064a41e0c573841"
+        },
+        {
+          "step": 36000,
+          "commit": "a49ded178cf6843fe6f2bb8677f2e7b4a5442884",
+          "source_sha256": "b6bc38679f56c4abc290c659325b2a84a22e838286ea5c4f70b53303315f3d81",
+          "source_size": 28143920,
+          "local_sha256": "b6bc38679f56c4abc290c659325b2a84a22e838286ea5c4f70b53303315f3d81",
+          "local_bytes": 28143920,
+          "response_etag": "4478e2ef65009311e1dad08664261d537f67791042477ed4e24e5a9230f7cc97"
+        },
+        {
+          "step": 37000,
+          "commit": "b2f9ea541b075a259013c23cd70b1c05763ed382",
+          "source_sha256": "96716672475c3e4a575fd3ff8c38df8f9d6012aa324048220f1d95b3b941c6e4",
+          "source_size": 28143920,
+          "local_sha256": "96716672475c3e4a575fd3ff8c38df8f9d6012aa324048220f1d95b3b941c6e4",
+          "local_bytes": 28143920,
+          "response_etag": "1e1c518c0aef7df4b6d7d5945876fd57bb6a54e1585d6cffef64bc8f5a0e564d"
+        },
+        {
+          "step": 38000,
+          "commit": "b741dbd1ecb86d45a53c362b26d0e291ebba12db",
+          "source_sha256": "8d8d6670486b86341634d957d33b583427649b8c49756beab6b699e755c54f4c",
+          "source_size": 28143920,
+          "local_sha256": "8d8d6670486b86341634d957d33b583427649b8c49756beab6b699e755c54f4c",
+          "local_bytes": 28143920,
+          "response_etag": "1587376a3602a6154add030a5c2cc3687526e402a48d126fd840135ca9149f61"
+        },
+        {
+          "step": 39000,
+          "commit": "c8b63714db71296df8a70979ebe679f7fd1e2d79",
+          "source_sha256": "4a88acc54fee7bb8f5444dee1638a29588a2d084fb2a1158ec8ed53f0d127ed0",
+          "source_size": 28143920,
+          "local_sha256": "4a88acc54fee7bb8f5444dee1638a29588a2d084fb2a1158ec8ed53f0d127ed0",
+          "local_bytes": 28143920,
+          "response_etag": "294fb62caa61daf8c3edc44c438d706ca1da622a2e70fb8a9df5788c4239c739"
+        },
+        {
+          "step": 40000,
+          "commit": "8df25c656dd39781fd7485ed8c09fe29d26a53ac",
+          "source_sha256": "0bd8aeb26f34bac4653c53197a05d6d205b114b0cbbaf9a2cf5a346965117792",
+          "source_size": 28143920,
+          "local_sha256": "0bd8aeb26f34bac4653c53197a05d6d205b114b0cbbaf9a2cf5a346965117792",
+          "local_bytes": 28143920,
+          "response_etag": "17359d41f90253863f6ac2d654eb6ca615e9618c0f909aaaf640287dfaf5c032"
+        },
+        {
+          "step": 41000,
+          "commit": "5d9b98ac5ed8205d5e4d2182be1e3e2a7048e98e",
+          "source_sha256": "2bfefd20d1ef838ece52b72797b18b75522819951bf12478affeb6d0345898d3",
+          "source_size": 28143920,
+          "local_sha256": "2bfefd20d1ef838ece52b72797b18b75522819951bf12478affeb6d0345898d3",
+          "local_bytes": 28143920,
+          "response_etag": "42e164409469695f8badc53e13ae1bd98d0582afb4e1c9e3d0e9dfda881c1993"
+        },
+        {
+          "step": 42000,
+          "commit": "d03f1c79a20358c52637cf093c74d1c0e783efa2",
+          "source_sha256": "6e222c5090182cc459a0531c43becb6db4a1129a7e57756e5508e58c941f4d93",
+          "source_size": 28143920,
+          "local_sha256": "6e222c5090182cc459a0531c43becb6db4a1129a7e57756e5508e58c941f4d93",
+          "local_bytes": 28143920,
+          "response_etag": "d997167559a394594f2984a89bf7c32007112f53136bffb4045678d63d80390d"
+        },
+        {
+          "step": 43000,
+          "commit": "f9924086f04270269291f462d260fa0a39736638",
+          "source_sha256": "2ffcf98b32c800d650ab46aa365d89002468f97dc2ae2aaa39f45dd8c9ae2053",
+          "source_size": 28143920,
+          "local_sha256": "2ffcf98b32c800d650ab46aa365d89002468f97dc2ae2aaa39f45dd8c9ae2053",
+          "local_bytes": 28143920,
+          "response_etag": "5e162d2ccc22e8823f6c07d8c191ec430ddb985899f75b819187b662253ba235"
+        },
+        {
+          "step": 44000,
+          "commit": "6df9cb0e9e8bed1325962123b5fe32753d6d1290",
+          "source_sha256": "6e569a11ecb6724c9ffc40eec71c9de726a033c4a882cdc47cca3d2bf42dc7ce",
+          "source_size": 28143920,
+          "local_sha256": "6e569a11ecb6724c9ffc40eec71c9de726a033c4a882cdc47cca3d2bf42dc7ce",
+          "local_bytes": 28143920,
+          "response_etag": "91a52385b893b1459c02d9616485e754760c25dc65ba4f950927043fee245d7b"
+        },
+        {
+          "step": 45000,
+          "commit": "1268036f27cec88c1c0f365a9a9a4785518ad812",
+          "source_sha256": "d2e29bd7649f365dd745273d87c75e7d897c943cd1073bc53c83fab0afd9fb4d",
+          "source_size": 28143920,
+          "local_sha256": "d2e29bd7649f365dd745273d87c75e7d897c943cd1073bc53c83fab0afd9fb4d",
+          "local_bytes": 28143920,
+          "response_etag": "6a4cd15e2ce0690480f891166b36837bab8942d49bd882729bd662f7a124068f"
+        },
+        {
+          "step": 46000,
+          "commit": "524e8396cc2e0b49e2415ed2312a49023bfb5fa1",
+          "source_sha256": "e3c554335ddd6c02f92e81bd71e3580fa49ecf12642049e6b5ee72c8299f09d4",
+          "source_size": 28143920,
+          "local_sha256": "e3c554335ddd6c02f92e81bd71e3580fa49ecf12642049e6b5ee72c8299f09d4",
+          "local_bytes": 28143920,
+          "response_etag": "a4cb54d6fe663536a6a5f54d874b1699efbeae02a81af5d8cd13fab3a85de5c3"
+        },
+        {
+          "step": 47000,
+          "commit": "58f06b59325ae32e91d49e200a91ddf7a0aee3e4",
+          "source_sha256": "ede9a86d865447576b425ef867ffa0ddcbda3f7c1c57aee1fe2fc5892be9e952",
+          "source_size": 28143920,
+          "local_sha256": "ede9a86d865447576b425ef867ffa0ddcbda3f7c1c57aee1fe2fc5892be9e952",
+          "local_bytes": 28143920,
+          "response_etag": "02068936e1aee97c9b03266355ce14c4b91e4c6261d5001cb22d36c29a5adc6e"
+        },
+        {
+          "step": 48000,
+          "commit": "567c9ae53625f37e4951a7589e8a4c787fe77825",
+          "source_sha256": "ef883e42c275e2f7d1a9946d07b7df1d4d94e8f91f725f7f7a7f450f16bc569c",
+          "source_size": 28143920,
+          "local_sha256": "ef883e42c275e2f7d1a9946d07b7df1d4d94e8f91f725f7f7a7f450f16bc569c",
+          "local_bytes": 28143920,
+          "response_etag": "f5def1e8a909fd9128782663fc15a95d2d8841b68db119f0f9dd54d77258f567"
+        },
+        {
+          "step": 112000,
+          "commit": "621bda8515540f0e73ad39ad09606180d31dca3e",
+          "source_sha256": "94c3134d157ac3e1c6fe7140c0788d79a27b57b32f1b966454ebb93afcf21df8",
+          "source_size": 28143920,
+          "local_sha256": "94c3134d157ac3e1c6fe7140c0788d79a27b57b32f1b966454ebb93afcf21df8",
+          "local_bytes": 28143920,
+          "response_etag": "c131b4de8cf9e061319a97812c3e491fe15324e3f99b485f2410a4f1b55bfd8e"
+        },
+        {
+          "step": 113000,
+          "commit": "d41cdb451c548d41c3a219fbdc80cea17c4f0727",
+          "source_sha256": "ad2e0d5bca2afb49616cbaaf21fd6738fed0c293691ab4cf2c5ecda1f9ea23ea",
+          "source_size": 28143920,
+          "local_sha256": "ad2e0d5bca2afb49616cbaaf21fd6738fed0c293691ab4cf2c5ecda1f9ea23ea",
+          "local_bytes": 28143920,
+          "response_etag": "fa485eee808dfdcf1b7e3b9d93fd963ef5410c8b7ef1208ddba16fb330ceccdf"
+        },
+        {
+          "step": 114000,
+          "commit": "f1ad1edaeddf23bdc26f7ff55c374b471917a4a5",
+          "source_sha256": "59e6aa1a0cdfdbfc4c35708596a7ce2768e875f8c29472d9db5298afd7cbfc01",
+          "source_size": 28143920,
+          "local_sha256": "59e6aa1a0cdfdbfc4c35708596a7ce2768e875f8c29472d9db5298afd7cbfc01",
+          "local_bytes": 28143920,
+          "response_etag": "02b393b36c64e655e77d837964bf3ad2850cc038b18bfc82c676cb477465bc8c"
+        },
+        {
+          "step": 115000,
+          "commit": "6af4e438bbdcc3431a29fe6095a2d648c578e607",
+          "source_sha256": "fd12291afe73179c7eef246ececc26b6af4329c762cb4665ec14a544ffb22fa1",
+          "source_size": 28143920,
+          "local_sha256": "fd12291afe73179c7eef246ececc26b6af4329c762cb4665ec14a544ffb22fa1",
+          "local_bytes": 28143920,
+          "response_etag": "7a86f6e7051d06f029b20009e3c13741d6ffea0cb97eb00f51ed07a8e3f78957"
+        },
+        {
+          "step": 116000,
+          "commit": "22b1dbc54eda1c621f4d3fd1d4f103e1a1118cf4",
+          "source_sha256": "9a7198bb6b9154b778543c393c6224c7a4ce89a84199cd59fe536329ff27c701",
+          "source_size": 28143920,
+          "local_sha256": "9a7198bb6b9154b778543c393c6224c7a4ce89a84199cd59fe536329ff27c701",
+          "local_bytes": 28143920,
+          "response_etag": "d6d8b0c789021d4aa6d04551588f6c93bf850abe890b7bdcf439caf78bfd3157"
+        },
+        {
+          "step": 117000,
+          "commit": "77091ccc86fa99c2ac573516616b0f2bc5dfb24b",
+          "source_sha256": "b624692d3b44f2c7a8bc982e80d86ac2b5478a0260b3274f38dd3159ae1b8a38",
+          "source_size": 28143920,
+          "local_sha256": "b624692d3b44f2c7a8bc982e80d86ac2b5478a0260b3274f38dd3159ae1b8a38",
+          "local_bytes": 28143920,
+          "response_etag": "237335e4ed50e8e2303108943d4ba0211befdf1c5e50d7f3f54e6d7425d66370"
+        },
+        {
+          "step": 118000,
+          "commit": "670ef7bc364bc79fb7bfc4c70e4f6faca4af2941",
+          "source_sha256": "4cea8f3f02d166b0a5c190b7ed40fe57d11de319e184541209fb0c483aa5c318",
+          "source_size": 28143920,
+          "local_sha256": "4cea8f3f02d166b0a5c190b7ed40fe57d11de319e184541209fb0c483aa5c318",
+          "local_bytes": 28143920,
+          "response_etag": "cdcf87be2762459b203b7d4c85e24f30a6bb66628ffbefb10d50fa16de1002aa"
+        },
+        {
+          "step": 119000,
+          "commit": "bf1c52ede64d0685ca9fc942f45fc2082a6a99b2",
+          "source_sha256": "aeed3a6f48847890c8749fd8117fd624f341395dcf910e0439ffe14fd3c9c170",
+          "source_size": 28143920,
+          "local_sha256": "aeed3a6f48847890c8749fd8117fd624f341395dcf910e0439ffe14fd3c9c170",
+          "local_bytes": 28143920,
+          "response_etag": "c98157cca04c7cfccbe4cb90209a745f816d1ddaf70351ac62923f288f9930a8"
+        },
+        {
+          "step": 120000,
+          "commit": "58e13afbca5078a60dbc2ffe5311e5e0fb3f25ba",
+          "source_sha256": "a3eb26e5c621a8803794014376137a54f233e9957e7ad65eb1228e3e4d69f1a0",
+          "source_size": 28143920,
+          "local_sha256": "a3eb26e5c621a8803794014376137a54f233e9957e7ad65eb1228e3e4d69f1a0",
+          "local_bytes": 28143920,
+          "response_etag": "39f94addec081a4bdab14a0c9517202110800959beaf57ebcf734df500811110"
+        },
+        {
+          "step": 121000,
+          "commit": "9ba66414d3c6b14692ff5b1d9a32b1b0ec1ceba8",
+          "source_sha256": "c56c1ac0b21ff24679ad5d23937bf9513ef77b6bf9cc8b931543cfa5760e7941",
+          "source_size": 28143920,
+          "local_sha256": "c56c1ac0b21ff24679ad5d23937bf9513ef77b6bf9cc8b931543cfa5760e7941",
+          "local_bytes": 28143920,
+          "response_etag": "27b822a879d0b2968b179d9561b17a4b40c2d4c796078b02d6ff82b5200808b8"
+        },
+        {
+          "step": 122000,
+          "commit": "19f0d2a23afb4907cdf9f9ada905b31c7c0f9e7f",
+          "source_sha256": "9e71ca61d7a79cc8c84c94fb80259298030c38ce3ebbccb2347096277dc441fb",
+          "source_size": 28143920,
+          "local_sha256": "9e71ca61d7a79cc8c84c94fb80259298030c38ce3ebbccb2347096277dc441fb",
+          "local_bytes": 28143920,
+          "response_etag": "d235b4fea6e82982f4a26a5f516f12d6d4eb97c358411d13dd0f6effd1afa741"
+        },
+        {
+          "step": 123000,
+          "commit": "36555cc4e4d36b98417cbf02d8e022816d8113bb",
+          "source_sha256": "45e10a221c8c0a19c9c83103da7fc30f59999493e990a3f501279eb5f666493b",
+          "source_size": 28143920,
+          "local_sha256": "45e10a221c8c0a19c9c83103da7fc30f59999493e990a3f501279eb5f666493b",
+          "local_bytes": 28143920,
+          "response_etag": "24a7c5fb34de62799a7c8c554e6d194301c2becce1ff92ba4847f595632a9188"
+        },
+        {
+          "step": 124000,
+          "commit": "5fda7afc77196593259a35a50750a577d40282e0",
+          "source_sha256": "6f2b51e162a16bc27272124157f58da6897a1eb9001e1b23122b9ac972b772ab",
+          "source_size": 28143920,
+          "local_sha256": "6f2b51e162a16bc27272124157f58da6897a1eb9001e1b23122b9ac972b772ab",
+          "local_bytes": 28143920,
+          "response_etag": "9cdddda2e3f142933ea3e6180429060616b5e752cf5ef4363c3d6c0896154dec"
+        },
+        {
+          "step": 125000,
+          "commit": "71140a43d3d0f7ecd28901fd64eb6d52ce465984",
+          "source_sha256": "9f357fe12c1d6d6c1681ec06eb6da49ee78dcf924e88962491020c660456f662",
+          "source_size": 28143920,
+          "local_sha256": "9f357fe12c1d6d6c1681ec06eb6da49ee78dcf924e88962491020c660456f662",
+          "local_bytes": 28143920,
+          "response_etag": "6ab8223388e6e29445b28d497ca795b1251344b70a8612eb705e0d7b16522051"
+        },
+        {
+          "step": 126000,
+          "commit": "84c001b42f70bc12affed756fa39048fc869b0a2",
+          "source_sha256": "0229412ba8acb2afec5cece97823eb0e864269afe241f3595d85a6eb5d4c18a8",
+          "source_size": 28143920,
+          "local_sha256": "0229412ba8acb2afec5cece97823eb0e864269afe241f3595d85a6eb5d4c18a8",
+          "local_bytes": 28143920,
+          "response_etag": "5201451fba5ea0b92941604c8a892ba1ac66c9d6588f8e212d3986d4c4f9de27"
+        },
+        {
+          "step": 127000,
+          "commit": "29116458d64bfdd75728480caf7fec21c6bd2193",
+          "source_sha256": "a14bdf4e5623e26eab578b401fcecb2d4deb068704efe9793dd98830b5f9bf77",
+          "source_size": 28143920,
+          "local_sha256": "a14bdf4e5623e26eab578b401fcecb2d4deb068704efe9793dd98830b5f9bf77",
+          "local_bytes": 28143920,
+          "response_etag": "b6c43e0e624696afb38d0e6a628610e3b8d8d9f3a9331740fd1f36ee76d293e5"
+        },
+        {
+          "step": 128000,
+          "commit": "db784253a58eeaae4bad0ed27b889da2c542796a",
+          "source_sha256": "fabbf03d511d37360e9acf3b90049b5551813789cc32e9655013a7023990b946",
+          "source_size": 28143920,
+          "local_sha256": "fabbf03d511d37360e9acf3b90049b5551813789cc32e9655013a7023990b946",
+          "local_bytes": 28143920,
+          "response_etag": "b775d5ca3a70a7d1d3d02c3e86ca72914ec606b570c9f505037211e9d0d54a63"
+        }
+      ]
+    },
+    "70m": {
+      "mode": "middle contiguous 32768 scalars of each specified tensor",
+      "license": {
+        "model": "70m",
+        "pinned_model_card": "https://huggingface.co/EleutherAI/pythia-70m/resolve/a39f36b100fe8a5377810d56c3f4789b9c53ac42/README.md",
+        "main_revision": "a39f36b100fe8a5377810d56c3f4789b9c53ac42",
+        "license": "apache-2.0",
+        "yaml": [
+          "license: apache-2.0"
+        ],
+        "card_sha256": "9a572054d777a1380b67740844abf986e5e077f53e518afbf7dd2193935f4de7"
+      },
+      "tensor_count": 13,
+      "dtype_counts": {
+        "F32": 13
+      },
+      "elements": 425984,
+      "sample_names": [
+        "gpt_neox.embed_in.weight",
+        "gpt_neox.layers.0.attention.query_key_value.weight",
+        "gpt_neox.layers.0.mlp.dense_h_to_4h.weight",
+        "gpt_neox.layers.1.attention.query_key_value.weight",
+        "gpt_neox.layers.1.mlp.dense_h_to_4h.weight",
+        "gpt_neox.layers.2.attention.query_key_value.weight",
+        "gpt_neox.layers.2.mlp.dense_h_to_4h.weight",
+        "gpt_neox.layers.3.attention.query_key_value.weight",
+        "gpt_neox.layers.3.mlp.dense_h_to_4h.weight",
+        "gpt_neox.layers.4.attention.query_key_value.weight",
+        "gpt_neox.layers.4.mlp.dense_h_to_4h.weight",
+        "gpt_neox.layers.5.attention.query_key_value.weight",
+        "gpt_neox.layers.5.mlp.dense_h_to_4h.weight"
+      ],
+      "checkpoints": [
+        {
+          "step": 32000,
+          "commit": "9cfc9da903b5d222d871ad599891f113abb834e6",
+          "source_sha256": "a0ef72a39b1a66d862f577bd1eeec50fa9fcc6ee2a7b460750597654fba10d14",
+          "source_size": 281715176,
+          "local_sha256": "0bdbc3e67675b285442667c11eb2c1d4285ba544f19326fe009cc24ccd870394",
+          "local_bytes": 1705392,
+          "response_etag": "e2235b8258c524dad8c6b1186d68e16a0cbb0c8f528afb2aeb31569fdc820a77"
+        },
+        {
+          "step": 33000,
+          "commit": "5373137c3e8c669baffc1d443b20002967d77bd2",
+          "source_sha256": "b6b9b5ca67d5caab17d1d9d6cd79251db565e6284d16d4d9206867387153b2a4",
+          "source_size": 281715176,
+          "local_sha256": "81fb2ec072395b83ad1c476fe23fdd386ef81053d292117341ca2279ed2a670e",
+          "local_bytes": 1705392,
+          "response_etag": "d56159d6e5205a47362e2da527094e9d35327dfab6353364927ee06906bf3906"
+        },
+        {
+          "step": 34000,
+          "commit": "5b4839243e0341840bd53c93b9ac313380e0393f",
+          "source_sha256": "fd9424846698bb5913b214c82a1285aeee47acb7f563d49ca020baf38e9ffb6f",
+          "source_size": 281715176,
+          "local_sha256": "6831a5a2ea6b108fab472a43251718ddebb7fab17118b3f49ad5c042e8eaf574",
+          "local_bytes": 1705392,
+          "response_etag": "fed89f76085e037e5771d9f5f933b5821cf3f278f07adcfc0e8d7d81b1350c9c"
+        },
+        {
+          "step": 35000,
+          "commit": "045f2cbe7b9b640615d5e00d1d0e2827cdc60069",
+          "source_sha256": "ec6eae6b453f61a7a3a5601bd3cfe20dccab44dee83eb2ef78ba8030f77359ce",
+          "source_size": 281715176,
+          "local_sha256": "9c17f51b5490e1eba4c2093e31877f270df2db202b15e37545527e2c76c55d56",
+          "local_bytes": 1705392,
+          "response_etag": "fdfb04c9a596264fbcaea019d77747de400cc49181b9d622805f2b30cf524fd0"
+        },
+        {
+          "step": 36000,
+          "commit": "6539118837f2417b455c2e0583977f2bb88904ca",
+          "source_sha256": "077b36c8a629af01fcaa3734984ab156449f09e43e71199e9525adcca96f0389",
+          "source_size": 281715176,
+          "local_sha256": "71cce76c4be36992b1c2b3587a8344fdce0ff9ce51a27f959a4cc1982cd0f024",
+          "local_bytes": 1705392,
+          "response_etag": "0cf21c6b05d4b701051ee7b6408b151d531bf5fdce836e674acd3ae251b8ab5c"
+        },
+        {
+          "step": 37000,
+          "commit": "65405f77a4680b9c24ac2062c22e6b6c1a6b6fb9",
+          "source_sha256": "4b4088bb4acf254ec4c88809a05885ee8ebe585af3a171efb548cedecaafb94b",
+          "source_size": 281715176,
+          "local_sha256": "a6e704b89db42c1c5a3cefabf19055043514cfe41b376c0bc0810afa694d1310",
+          "local_bytes": 1705392,
+          "response_etag": "ac25ff8e26061ab719f6ae6963728ee1779cbc1ec51ce6223a1be685a0550db1"
+        },
+        {
+          "step": 38000,
+          "commit": "7e663aaf641d01e3b7ba31806d82e237fa045de9",
+          "source_sha256": "4ccc7476e198f9c98e2815e8530f8fa1bd26855422f4a818b2084739b50e3a28",
+          "source_size": 281715176,
+          "local_sha256": "b658377380587d76c11503bc6870336c0a5a63f087c0f4b9b6340f7bce8bc477",
+          "local_bytes": 1705392,
+          "response_etag": "aa149feeff39345aa74289b27e774689569c220f74e2d4058c8963814e526d80"
+        },
+        {
+          "step": 39000,
+          "commit": "66866ff2b9a946db8074a4a78c669e554676ce4c",
+          "source_sha256": "5e47e97bfb82866d9c89ddc624e656583380db9f3367b130566ef7ff8c4e822c",
+          "source_size": 281715176,
+          "local_sha256": "c9f0f1c78ad130cbca6b95d3bf68765d0260a3e6b9cacc6db1fda4ecdde42dec",
+          "local_bytes": 1705392,
+          "response_etag": "0aee3e78e690d777efae8dd973d01f723fe4cee3073f8198f758c66975ba1101"
+        },
+        {
+          "step": 40000,
+          "commit": "03829e7b6e418e61d532638093d22545ecdbfc15",
+          "source_sha256": "677903d2fa9407093088e6dd08ae3d2b0ab76774c6abe58971974c55f7fcaa15",
+          "source_size": 281715176,
+          "local_sha256": "7f36daffa7951a5ab6d4157c21f6ba68307580345fde65b7594b663aa6373ab9",
+          "local_bytes": 1705392,
+          "response_etag": "0a09919a46ea161fbacbd3fe1e753f7ac315fabad6d2d740c331b6004eafda02"
+        },
+        {
+          "step": 41000,
+          "commit": "b1f3699ff1a96724888ee27d6c35f022ae035c62",
+          "source_sha256": "a65f47826700fdfa05dc6df019cb052d626fe4826ccaa425f207dc86dae08330",
+          "source_size": 281715176,
+          "local_sha256": "d0c601dabe4cfd15dab98b5a4bc375761b0b064807255b987fe9fb9644d4f446",
+          "local_bytes": 1705392,
+          "response_etag": "9af424955e8ee15a303dfbd84d3a94e061075eb3b81b482708ce67deb9d2d19b"
+        },
+        {
+          "step": 42000,
+          "commit": "7cb0aa0531576193e2fbfad90d0a75cede7b9455",
+          "source_sha256": "afe92079a4a2b5447bae09e48b9e50fabd0ac87fed8ff3e2e06ac70bf93b320e",
+          "source_size": 281715176,
+          "local_sha256": "1a507eedde0480375f198abbb3c6fb391a896a1d4e8db60585e752265612d1c4",
+          "local_bytes": 1705392,
+          "response_etag": "a1ff8094cd6d640c2e30d04a12bc388d99d9959f5131ef293cfc3ffe6baebbea"
+        },
+        {
+          "step": 43000,
+          "commit": "d0be19a975ff00b89e41edb65760fa5be5adb2f9",
+          "source_sha256": "30d86a4c62354b82ae5abf97dadc74c0a49c01082b01fc559137b5969fb2382b",
+          "source_size": 281715176,
+          "local_sha256": "d5e2d993d4da754c9be0efc6ab18c6336ab2c94768475f51e0646cf6c958155b",
+          "local_bytes": 1705392,
+          "response_etag": "4d05ce241791d2ff5e5bc69867eb2afe5b268aa2f3dd4f5048bd0a633434eefb"
+        },
+        {
+          "step": 44000,
+          "commit": "80acfcb3d49c749072fdfd23165b9cdb2676cb7f",
+          "source_sha256": "8d6169478d9e58d50bda443fb31cf43dd3295a309800e872c3db24fdf7183443",
+          "source_size": 281715176,
+          "local_sha256": "c744fae0b56ef4a33e7bf1cc4e93cfcc27754c1bb3bef338ffb06ff0ebb13b23",
+          "local_bytes": 1705392,
+          "response_etag": "9319269864d66ef89bd3e1ac60d469583a035fc57d970145e10e844e1bca54a6"
+        },
+        {
+          "step": 45000,
+          "commit": "06deba680ba4fbae2dbcffd13578b1a338c33055",
+          "source_sha256": "fab4982f27654cd0545a4155b38bd44c1769a411a60134f0356451d8999c9c86",
+          "source_size": 281715176,
+          "local_sha256": "0f5215e8516b6df142137d1917ca57c442c76dcf26d816e0fa6ce4c38e559c4d",
+          "local_bytes": 1705392,
+          "response_etag": "74944ab56ca6995477d0dc067a2058627f74da54294808baae2c76a4481c3c05"
+        },
+        {
+          "step": 46000,
+          "commit": "61b4e70ba1b898ba68bc10f7cf8c954f62c3e2d4",
+          "source_sha256": "d173fb14ce8442c30356f49939891efb810f6407849dff0ae6851c0fdd8caa08",
+          "source_size": 281715176,
+          "local_sha256": "9d185a4034b457ca0f72b11559e12b61bc870298aa6b0764359fe2ceee130e4b",
+          "local_bytes": 1705392,
+          "response_etag": "1f136c37d9ced48e0c36f33d801dd79baadda704d273fc5ef03b90726d5377e7"
+        },
+        {
+          "step": 47000,
+          "commit": "677191f7b0cb6714dffbb70227b09b48e25ee866",
+          "source_sha256": "efd00e8b1d7eef964fdf72bfaaa461d941787b88023fa19cce6c23c1fb1e0e11",
+          "source_size": 281715176,
+          "local_sha256": "6ccb214a3bbb13f5ea309476a25038a9ee58b45f637b3c292769b55f6fe4adeb",
+          "local_bytes": 1705392,
+          "response_etag": "7c70e5f35f2fec69cbaa3690da7d5490e82176b74fb3cc40b3bd554bc226c20e"
+        },
+        {
+          "step": 48000,
+          "commit": "963d0ddf8852ce1e02388c85dc0a70592efeff07",
+          "source_sha256": "c2b3824c55e84952151e7a39b002591598e83815ec61548c574814f52c31302e",
+          "source_size": 281715176,
+          "local_sha256": "4c821867a2668bbb1c09c5c93f7ed63e8b16f30db6f06157bf3f4816543bc3cf",
+          "local_bytes": 1705392,
+          "response_etag": "d0b9a775e399c1492a564215c0b63f481e32fd95c62c8e207e0e56a0279450f4"
+        },
+        {
+          "step": 112000,
+          "commit": "92f2eb949858a5eaa02a6021a18503c2765b0556",
+          "source_sha256": "b8a11e99e9017868950df87f9a4dac89932f14d728e04dc4e185d7cfff23ac21",
+          "source_size": 281715176,
+          "local_sha256": "560d77ec28fd278c29e2c736b412eeb118f0548e2305d62b9fb5443c027fa8f1",
+          "local_bytes": 1705392,
+          "response_etag": "2e9911abccaf33a468900fe93123c53b8d41ed469a68343f612163300b635d2c"
+        },
+        {
+          "step": 113000,
+          "commit": "d037efc180db80f3d158e1a57132498c152f215e",
+          "source_sha256": "4ebbd5f2c5e7ad658c055bd48d0bdecb386785a9fd2617250df13e900ee7b34f",
+          "source_size": 281715176,
+          "local_sha256": "c31cfd9b607284783637507e1521337a337f6648aea46734df4a2734fb57c8de",
+          "local_bytes": 1705392,
+          "response_etag": "dfc997d63b5da38be37fee896b86e1663ad8060018f27b0de4e906a91ea53354"
+        },
+        {
+          "step": 114000,
+          "commit": "39d5f31352dce690d66d533cf7c5ba8a6327b008",
+          "source_sha256": "07d1474688a13f313e18ea36a7e4ffd5c78be85e55bade78327f20db908076e6",
+          "source_size": 281715176,
+          "local_sha256": "94201292002ba31cd26605c812b0dab35c017228db799305b205fe598c402777",
+          "local_bytes": 1705392,
+          "response_etag": "5d80bbf711aa54dfd33f48075c8cce667632a967434ac0f0f53a39caeb0169c6"
+        },
+        {
+          "step": 115000,
+          "commit": "385d6120c6cbdc6e136ed03a6232f3b6b26a503c",
+          "source_sha256": "555b679741949f1daf2e478f1ce32db637d54d4b903113536496503e0e7afb8a",
+          "source_size": 281715176,
+          "local_sha256": "b3b1a50e21ac00944b08bc5d2138ee38731af05826847a38d6cbff1fde50f9a8",
+          "local_bytes": 1705392,
+          "response_etag": "ef67e638640936cfecbf512049e15344d64a25fee9ad4e81bec8bd01391a9ef9"
+        },
+        {
+          "step": 116000,
+          "commit": "b0a582f9715a8fd39be14c2543f0fc094b89e5ed",
+          "source_sha256": "c2f81488ebabd66d96ab044ac0a7942057f8cd51d4c58a2e827b36c8d753e669",
+          "source_size": 281715176,
+          "local_sha256": "f15451dc51d9d39677707cad548af225813c6a8c22b493d49426bcae2c162e19",
+          "local_bytes": 1705392,
+          "response_etag": "12d2ae76fb64dfa6a9d9497aef77bd28e7a51b79cccb8030728340fc1d0036b1"
+        },
+        {
+          "step": 117000,
+          "commit": "986d6c5b741c4da633e2b1176125325ed20d75fc",
+          "source_sha256": "2d74b1df427667d1f2250fa37eae19cf0ec0dcca1a40ff08271703ed691a24d4",
+          "source_size": 281715176,
+          "local_sha256": "009f47c4c296c919676f8cea3a3566fee26530a839aae62259bee073fa96c0f5",
+          "local_bytes": 1705392,
+          "response_etag": "d11f3864936e75929ba97529d6bac8cc3c9b640c7dc32681b44af1a09e9c994a"
+        },
+        {
+          "step": 118000,
+          "commit": "085b1b9000a79a6826226331ea0fefdef8777759",
+          "source_sha256": "83182f00107122c9dcc911bcbaa94b052e04f794fad3e85306a9ccb62bf62ffd",
+          "source_size": 281715176,
+          "local_sha256": "f969bb23bb36cc5481c5d67824932d80e4ead3bba9683137efa7eff4f6eaa8ed",
+          "local_bytes": 1705392,
+          "response_etag": "dc38740dcc7037d82a15455852df05e623e5e8e04949c01bf78792e5918974b4"
+        },
+        {
+          "step": 119000,
+          "commit": "da300f35d26a4b260ff494e2c2894c074dd631c6",
+          "source_sha256": "c42b9e30a4a9ac4d1601df7e6e7777db1292a2a9a735a0fe1b58060558c18c24",
+          "source_size": 281715176,
+          "local_sha256": "6b3dacbfb3fca145c192d92977d2fa231b287de772d731e39052cc18d18488e5",
+          "local_bytes": 1705392,
+          "response_etag": "509fb7e87c401dca940d3f7df308f8fa768c8620c826e72e0cd1214eca65227e"
+        },
+        {
+          "step": 120000,
+          "commit": "b17a8cb6f76b1236ca11e0ab713425ebdddadc84",
+          "source_sha256": "6bdec8e52c30df0e24cba12c398a4526b5cf9fc29221c4ae60341ffd589abe01",
+          "source_size": 281715176,
+          "local_sha256": "16703b77aa45f0674fa45aa7f51eaf5c41f5e36affefb8902ddc3b83a7502568",
+          "local_bytes": 1705392,
+          "response_etag": "77b4947c95c067d9d7042fd4c366fb995a695f6d0b4beb52c89d6e5a47cac991"
+        },
+        {
+          "step": 121000,
+          "commit": "fe3d6a8e1de8888b449af77855b824587b4e1f72",
+          "source_sha256": "52c062798df6c7a0d2f7bc11e1ab0594aa9e2f8d471504417a0b6ead2f851ed7",
+          "source_size": 281715176,
+          "local_sha256": "7a84717221378be16c57fb16f70ddefdf573cf431fb2976d6f1bc70af1dc01fb",
+          "local_bytes": 1705392,
+          "response_etag": "4b5ea120112ed18bf0935e78ac748c8f1e9efb8bf542ad02347705267b43f9cf"
+        },
+        {
+          "step": 122000,
+          "commit": "9a6349bc2196639a09fbc78f794b1d894b1cf7fc",
+          "source_sha256": "c9acab7f268d470a90a4a21bfdd65670d7bcad06ac6476ad8db93f7703fabf56",
+          "source_size": 281715176,
+          "local_sha256": "26060dadf832ae45f518bad4329264a5841d6bf6f33521eb8d7aa6267740e277",
+          "local_bytes": 1705392,
+          "response_etag": "55a30fcc3231f265a8b75e96ca0ea94362347a88b87d17993089ef4cb17eb862"
+        },
+        {
+          "step": 123000,
+          "commit": "d91619cf1e21f4d2e2a815e76892d5b4be8218c6",
+          "source_sha256": "a15ab5ddefbeea9b39c65e3e41e903c485be7c3ac8e6cdf74cc2306ae74599ed",
+          "source_size": 281715176,
+          "local_sha256": "ed06ba7a9b9c49d5ab067f997b2006ccffaf4417674fdd4c20f770f6763b282a",
+          "local_bytes": 1705392,
+          "response_etag": "47c0f27fe390aae38c99629acf94c6384074adf75b8aea79e08624bd0919a84d"
+        },
+        {
+          "step": 124000,
+          "commit": "bbb0f7de1f0cc19813d69ca2e2d42163e543bfe2",
+          "source_sha256": "6c0a468475c79ab92297a707bb5beaff71741e499c5700b8fcda1a42c93bb5fe",
+          "source_size": 281715176,
+          "local_sha256": "9733674b13fadc2d1a4c24c2a6dbb6f223ab4d5464d4bb36c144b8bda3d558c4",
+          "local_bytes": 1705392,
+          "response_etag": "a53d88fb133984df10f6575810607bd21b5d14388900b2a28c788f620dc270d5"
+        },
+        {
+          "step": 125000,
+          "commit": "f128cef16ca9bedf2c18100c6d672c5c2b1dbc96",
+          "source_sha256": "9d1e9c5872eb2208cbe88a67ef6131234d88cb956689241513d426819bc25ebc",
+          "source_size": 281715176,
+          "local_sha256": "e116b3ea980f3097257523e9674fbc8a1b53627b84c8e0fb314fc591ec5cb9fa",
+          "local_bytes": 1705392,
+          "response_etag": "c177cedeeb35d1d1a503de875393e1033c5624825edb8344a21edcdaeb468216"
+        },
+        {
+          "step": 126000,
+          "commit": "ebdf5033fdd3bb90c744d7430cde9b5d058b8dfd",
+          "source_sha256": "2b5f4fe58f4133eb0e4489a4685dfe64d587fbdd9cb3eb4b6855f5565fcdf6f8",
+          "source_size": 281715176,
+          "local_sha256": "cc9ef5eef4c8dc9a4c5e1dbca1ec6ff81ee665f2b77e08bc21f88a6827c2816e",
+          "local_bytes": 1705392,
+          "response_etag": "57d96d3698da817987f2cc8020dba78a70918923557f2b5f73b59cd51f5fc7b8"
+        },
+        {
+          "step": 127000,
+          "commit": "de4315c70ac6c36bb4ee23748bb28b200d55ff88",
+          "source_sha256": "96d0fd0cccd2c8cc7234900ba5dc1ff1803db29c38fc3d7e32c227bbb3d0d2a0",
+          "source_size": 281715176,
+          "local_sha256": "d8952f4122312c9d39ed342e4edc67b8615f49540cfc0e05526f9f91c7e677d7",
+          "local_bytes": 1705392,
+          "response_etag": "62668e74c957d6a4097f1aaf8d2f7167d60ccb19d6d1b47f1b84739f07855f4d"
+        },
+        {
+          "step": 128000,
+          "commit": "c037a4430fb15f849667c0ea1cb2487d8bb1b9b3",
+          "source_sha256": "107abfd80920def849f3c6f29f4e9912a9ca50113dcc428a564896bf151f4ce6",
+          "source_size": 281715176,
+          "local_sha256": "bad03051275a0acf88a7629f2008db9a9266b0aa10523fb25e7af0c8bb916692",
+          "local_bytes": 1705392,
+          "response_etag": "9f1363048695a372e165d2d273227030562254e019c3e2e91023710ece45bda7"
+        }
+      ],
+      "slices": {
+        "gpt_neox.embed_in.weight": {
+          "source_shape": [
+            50304,
+            512
+          ],
+          "dtype": "F32",
+          "first_element": 12861440,
+          "element_count": 32768,
+          "source_byte_range_half_open": [
+            154477032,
+            154608104
+          ]
+        },
+        "gpt_neox.layers.0.attention.query_key_value.weight": {
+          "source_shape": [
+            1536,
+            512
+          ],
+          "dtype": "F32",
+          "first_element": 376832,
+          "element_count": 32768,
+          "source_byte_range_half_open": [
+            208622056,
+            208753128
+          ]
+        },
+        "gpt_neox.layers.0.mlp.dense_h_to_4h.weight": {
+          "source_shape": [
+            2048,
+            512
+          ],
+          "dtype": "F32",
+          "first_element": 507904,
+          "element_count": 32768,
+          "source_byte_range_half_open": [
+            216500712,
+            216631784
+          ]
+        },
+        "gpt_neox.layers.1.attention.query_key_value.weight": {
+          "source_shape": [
+            1536,
+            512
+          ],
+          "dtype": "F32",
+          "first_element": 376832,
+          "element_count": 32768,
+          "source_byte_range_half_open": [
+            221231592,
+            221362664
+          ]
+        },
+        "gpt_neox.layers.1.mlp.dense_h_to_4h.weight": {
+          "source_shape": [
+            2048,
+            512
+          ],
+          "dtype": "F32",
+          "first_element": 507904,
+          "element_count": 32768,
+          "source_byte_range_half_open": [
+            229110248,
+            229241320
+          ]
+        },
+        "gpt_neox.layers.2.attention.query_key_value.weight": {
+          "source_shape": [
+            1536,
+            512
+          ],
+          "dtype": "F32",
+          "first_element": 376832,
+          "element_count": 32768,
+          "source_byte_range_half_open": [
+            233841128,
+            233972200
+          ]
+        },
+        "gpt_neox.layers.2.mlp.dense_h_to_4h.weight": {
+          "source_shape": [
+            2048,
+            512
+          ],
+          "dtype": "F32",
+          "first_element": 507904,
+          "element_count": 32768,
+          "source_byte_range_half_open": [
+            241719784,
+            241850856
+          ]
+        },
+        "gpt_neox.layers.3.attention.query_key_value.weight": {
+          "source_shape": [
+            1536,
+            512
+          ],
+          "dtype": "F32",
+          "first_element": 376832,
+          "element_count": 32768,
+          "source_byte_range_half_open": [
+            246450664,
+            246581736
+          ]
+        },
+        "gpt_neox.layers.3.mlp.dense_h_to_4h.weight": {
+          "source_shape": [
+            2048,
+            512
+          ],
+          "dtype": "F32",
+          "first_element": 507904,
+          "element_count": 32768,
+          "source_byte_range_half_open": [
+            254329320,
+            254460392
+          ]
+        },
+        "gpt_neox.layers.4.attention.query_key_value.weight": {
+          "source_shape": [
+            1536,
+            512
+          ],
+          "dtype": "F32",
+          "first_element": 376832,
+          "element_count": 32768,
+          "source_byte_range_half_open": [
+            259060200,
+            259191272
+          ]
+        },
+        "gpt_neox.layers.4.mlp.dense_h_to_4h.weight": {
+          "source_shape": [
+            2048,
+            512
+          ],
+          "dtype": "F32",
+          "first_element": 507904,
+          "element_count": 32768,
+          "source_byte_range_half_open": [
+            266938856,
+            267069928
+          ]
+        },
+        "gpt_neox.layers.5.attention.query_key_value.weight": {
+          "source_shape": [
+            1536,
+            512
+          ],
+          "dtype": "F32",
+          "first_element": 376832,
+          "element_count": 32768,
+          "source_byte_range_half_open": [
+            271669736,
+            271800808
+          ]
+        },
+        "gpt_neox.layers.5.mlp.dense_h_to_4h.weight": {
+          "source_shape": [
+            2048,
+            512
+          ],
+          "dtype": "F32",
+          "first_element": 507904,
+          "element_count": 32768,
+          "source_byte_range_half_open": [
+            279548392,
+            279679464
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "weighting": "one count per scalar value at each evaluated time",
+  "original_steps_per_cohort": 17,
+  "interior_midpoint_steps_per_cohort": 15,
+  "cohort_scope": {
+    "14m": "complete safetensors payload",
+    "70m": "13 pinned tensor slices"
+  },
+  "midpoint_rule": "average the two immediate neighbors in float64, cast once to archive dtype",
+  "fp16_rule": "cast to float16 and back to archive dtype; compare original archive dtype bits",
+  "bf16_rule": "convert to float32 and test its low 16 bits for zero",
+  "cohorts": [
+    {
+      "model": "14m",
+      "start": 32000,
+      "end": 48000,
+      "dtype": "float16",
+      "elements_per_snapshot": 14067712,
+      "original": {
+        "elements": 239151104,
+        "exact_fp16": 239151104,
+        "exact_bf16_grid": 29975318,
+        "nonfinite": 0,
+        "exact_fp16_fraction": 1.0,
+        "exact_bf16_fraction": 0.1253404960238026
+      },
+      "radius_one_midpoint": {
+        "elements": 211015680,
+        "exact_fp16": 211015680,
+        "exact_bf16_grid": 38846147,
+        "nonfinite": 0,
+        "exact_fp16_fraction": 1.0,
+        "exact_bf16_fraction": 0.1840912817474038
+      }
+    },
+    {
+      "model": "14m",
+      "start": 112000,
+      "end": 128000,
+      "dtype": "float16",
+      "elements_per_snapshot": 14067712,
+      "original": {
+        "elements": 239151104,
+        "exact_fp16": 239151104,
+        "exact_bf16_grid": 30222739,
+        "nonfinite": 0,
+        "exact_fp16_fraction": 1.0,
+        "exact_bf16_fraction": 0.1263750762363196
+      },
+      "radius_one_midpoint": {
+        "elements": 211015680,
+        "exact_fp16": 211015680,
+        "exact_bf16_grid": 39337176,
+        "nonfinite": 0,
+        "exact_fp16_fraction": 1.0,
+        "exact_bf16_fraction": 0.1864182604818751
+      }
+    },
+    {
+      "model": "70m",
+      "start": 32000,
+      "end": 48000,
+      "dtype": "float32",
+      "elements_per_snapshot": 425984,
+      "original": {
+        "elements": 7241728,
+        "exact_fp16": 7241728,
+        "exact_bf16_grid": 908417,
+        "nonfinite": 0,
+        "exact_fp16_fraction": 1.0,
+        "exact_bf16_fraction": 0.1254420215727517
+      },
+      "radius_one_midpoint": {
+        "elements": 6389760,
+        "exact_fp16": 2888167,
+        "exact_bf16_grid": 393332,
+        "nonfinite": 0,
+        "exact_fp16_fraction": 0.4519992926181891,
+        "exact_bf16_fraction": 0.0615566155849359
+      }
+    },
+    {
+      "model": "70m",
+      "start": 112000,
+      "end": 128000,
+      "dtype": "float32",
+      "elements_per_snapshot": 425984,
+      "original": {
+        "elements": 7241728,
+        "exact_fp16": 7241728,
+        "exact_bf16_grid": 909117,
+        "nonfinite": 0,
+        "exact_fp16_fraction": 1.0,
+        "exact_bf16_fraction": 0.12553868358491233
+      },
+      "radius_one_midpoint": {
+        "elements": 6389760,
+        "exact_fp16": 3009343,
+        "exact_bf16_grid": 391953,
+        "nonfinite": 0,
+        "exact_fp16_fraction": 0.470963385166266,
+        "exact_bf16_fraction": 0.06134080153245192
+      }
+    }
+  ]
+}

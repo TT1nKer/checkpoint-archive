@@ -1,0 +1,14 @@
+{
+  "14m": {
+    "snapshots": 34,
+    "tensor_count": 76,
+    "elements_per_snapshot": 14067712,
+    "local_bytes": 956893280
+  },
+  "70m": {
+    "snapshots": 34,
+    "tensor_count": 13,
+    "elements_per_snapshot": 425984,
+    "local_bytes": 57983328
+  }
+}
